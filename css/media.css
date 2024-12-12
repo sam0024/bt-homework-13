@@ -1,0 +1,131 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.menu {
+		display: none;
+    }
+
+    .body {
+	    width: 100%;
+    }
+
+	.h2 {
+	    width: 95%;
+    }
+
+    .p_b {
+    	width: 95%;
+    }
+
+    .berries {
+    	margin: 0;
+    	padding: 10px 0;
+	    width: 100%;
+    }
+
+    .cake {
+	    display: none;
+    }
+
+    .text {
+	    font-size: 20px;
+	    letter-spacing: 5px;
+    }
+
+    .hr {
+    	width: 300;
+    }
+
+    .prod {
+        width: 80%;
+    }	
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.menu {
+       width: 60%;
+    }
+
+	.menu ul {
+		top: 40%;
+        gap: 10px;
+    }
+
+    .menu ul li a {
+        font-size: 13px;
+    }
+
+    .body {
+	    width: 100%;
+    }
+
+	.h2 {
+	    width: 90%;
+    }
+
+    .p_b {
+    	width: 90%;
+    }
+
+    .berries {
+	    width: 90%;
+    }
+
+    .cake {
+	    display: none;
+    }
+
+    .prod {
+        width: 80%;
+    }	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.menu ul {
+        gap: 12px;
+    }
+
+    .menu ul li a {
+        font-size: 13px;
+    }
+
+	.h2 {
+	    width: 60%;
+    }
+
+    .berries {
+	    width: 90%;
+    }
+
+    .cake {
+	    width: 80%;
+    }
+
+    .three {
+    	display: none;
+    }
+
+    .prod {
+    	margin: 0 70px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.container {
+	    width: 90%;
+    }
+
+	.h2 {
+	    width: 50%;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}
